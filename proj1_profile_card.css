@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.profile_card{
+    max-width: 370px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 3px;
+    margin: 10px;
+}
+
+.image .profile_pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+}
+
+.profile_card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(47, 42, 42);
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.media_buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.media_buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    background-color: blue;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-top: 10px;
+
+}
+
+.buttons .connect{
+    width: 120px;
+    height: 30px;
+    background-color:rgb(48,118,211);
+    border: none;
+    border-radius: 30px;
+    margin-right: 30px;
+    color: white;
+    font-weight: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: opacity 0.15s;
+}
+
+.buttons .message{
+    width: 120px;
+    height: 30px;
+    background-color:rgb(48,118,211);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: opacity 0.15s;
+}
+
+.buttons .connect:hover{
+    opacity: 0.7;
+}
+
+.buttons .message:hover{
+    opacity: 0.7;
+}
+
+.profile_card .stats{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.stats .data{
+    display: flex;
+    align-items: center;
+    color: rgb(47, 42, 42);
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.data:last-child{
+    border: none;
+}
+
